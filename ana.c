@@ -123,7 +123,8 @@ int main(int argc, char **argv) {
     if(score >= min_score)
       printf("[%d/%d] %s\n", score, size, buf);
   }
-  
+
+  fclose(fp);
   return 0;
   
  out:
